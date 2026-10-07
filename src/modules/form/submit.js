@@ -31,7 +31,6 @@ form.onsubmit = (event) => {
       return alert('Por favor, selecione um horário.')
     }
 
-
     // Recupera somente a hora
     const [hour] = hourSelected.innerText.split(':')
     
